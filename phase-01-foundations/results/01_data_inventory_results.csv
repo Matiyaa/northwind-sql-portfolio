@@ -1,0 +1,14 @@
+#,TABLE_NAME,Column_Count
+1,Categories,4
+2,CustomerCustomerDemo,2
+3,CustomerDemographics,2
+4,Customers,11
+5,Employees,18
+6,EmployeeTerritories,2
+7,Order Details,5
+8,Orders,14
+9,Products,10
+10,Region,2
+11,Shippers,3
+12,Suppliers,12
+13,Territories,3
