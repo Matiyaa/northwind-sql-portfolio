@@ -14,54 +14,45 @@ A comprehensive SQL learning project demonstrating progression from foundational
 
 ### Phase 1: Foundation Reinforcement ✅
 **Focus**: Core syntax mastery, essential functions, basic aggregation
+- Database discovery and business intelligence fundamentals
+- Revenue calculations with discount handling
+- Monthly trend analysis and seasonal patterns
+- Data quality validation frameworks
 
-#### Challenge 1: Business Intelligence Briefing ✅
-*Scenario: New data analyst conducting comprehensive business overview*
-
-**Business Questions Solved:**
-- Data inventory and structure assessment
-- Business scale analysis (customers, products, orders, employees)
-- Geographic operational reach
-- Temporal data coverage
-- Data quality validation framework
-
-**SQL Techniques Applied:**
-- Information schema queries for database discovery
-- Subquery patterns for efficient aggregation
-- UNION operations for geographic analysis
-- Conditional logic with CASE WHEN statements
-- Referential integrity validation
-
-**📊 Business Insights**: [View Analysis Results](https://www.notion.so/matiya/Northwind-Traders-Business-Intelligence-Overview-21a7cac77a698020bc2dd016a4c18433)
-
----
-
-### Upcoming Phases
-
-#### Phase 2: Intermediate Joins & Subqueries
-- Multi-table relationships and nested logic
+### Phase 2: Intermediate Joins & Subqueries
+**Focus**: Multi-table relationships and nested logic
+- All JOIN types with proper aliasing
 - Self-joins for hierarchical data
-- Advanced subquery techniques
+- Subquery techniques: scalar, correlated, EXISTS vs IN
+- Understanding NULL handling in comparisons
 
-#### Phase 3: Advanced Aggregation & CTEs
-- Common Table Expressions
-- Advanced grouping (ROLLUP, CUBE, GROUPING SETS)
-- Performance considerations
+### Phase 3: Advanced Aggregation & CTEs
+**Focus**: Complex grouping and query organization
+- Common Table Expressions for readability and recursion
+- Advanced grouping: ROLLUP, CUBE, GROUPING SETS
+- Conditional aggregation patterns
+- Performance considerations vs derived tables
 
-#### Phase 4: Window Functions & Analytics
-- Ranking and offset functions
+### Phase 4: Window Functions & Analytics
+**Focus**: Advanced analytical capabilities
+- Ranking functions: ROW_NUMBER, RANK, DENSE_RANK, NTILE
+- Offset functions: LAG, LEAD for period comparisons
+- Aggregate window functions with proper framing
 - Running totals and moving averages
-- Advanced analytical patterns
 
-#### Phase 5: Performance & Optimization
-- Execution plan analysis
-- Index awareness and optimization
-- Production-ready query techniques
+### Phase 5: Performance & Optimization
+**Focus**: Efficiency and production readiness
+- Reading and interpreting execution plans
+- Index awareness and SARGABLE predicates
+- Query optimization techniques
+- When to break complex queries into temp tables
 
-#### Phase 6: Advanced Problem Solving
+### Phase 6: Advanced Problem Solving
+**Focus**: Real-world business scenarios
 - Cohort analysis and customer segmentation
-- Time-series analysis
-- Complex business scenarios
+- Time-series analysis patterns
+- Data quality and profiling techniques
+- Gap and island problems
 
 ## Technical Setup
 
@@ -71,15 +62,22 @@ A comprehensive SQL learning project demonstrating progression from foundational
 **Language**: T-SQL (Microsoft SQL Server dialect)
 
 ## Repository Structure
-
-📁 northwind-sql-portfolio/\
-├── 📁 phase-01-foundations/\
-│   ├── 01-business-overview.sql\
-│   └── 📁 results/ (exported query outputs)\
-├── 📁 database-setup/\
-│   └── instnwnd.sql\
-├── README.md\
+📁 northwind-sql-portfolio/
+├── 📁 phase-01-foundations/
+│   ├── 01-business-overview.sql
+│   ├── 02-sales-trends.sql
+│   └── 📁 results/ (exported query outputs)
+├── 📁 documentation/ (detailed challenge documentation)
+├── 📁 database-setup/
+│   └── instnwnd.sql
+├── README.md
 └── pyproject.toml
+
+## Portfolio Showcase
+
+**Technical Implementation**: All SQL code with clear business context and professional commenting
+**Business Analysis**: Detailed insights and findings documented in Notion with visual results
+**Progressive Complexity**: Each challenge builds upon previous skills while introducing new concepts
 
 ## Getting Started
 
@@ -87,3 +85,4 @@ A comprehensive SQL learning project demonstrating progression from foundational
 2. Review the database setup in `database-setup/`
 3. Follow the progressive challenges in each phase folder
 4. Check business insights in the linked Notion pages
+5. Review detailed challenge documentation in `/documentation/`
